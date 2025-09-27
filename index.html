@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                    <img src="./assets/library_icon.png">
+                    <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class=" bad box">
+                        <div class="box-p1">Create your first playlist</div>
+                        <div class="box-p2">It's easy, we'll help you</div>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class=" good box">
+                        <div class="box-p1">Lets find some podcasts to follow</div>
+                        <div class="box-p2">We'll keep you updated   on new episodes</div>
+                        <button class="badge">Browse Podcsats</button>
+                    </div>
+                    <div class="random">
+                        <div class="floater">Legal</div>
+                        <div class="floater">Privacy Policy</div>
+                        <div class="floater">Cookies</div>
+                        <div class="floater">About ads</div>
+                        <div class="floater">Accessibility</div>
+                        <div class="floater">Privacy</div>
+                        <div class="floater">Social media</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <i class="fa-solid fa-bars hamburger-menu" style="display: none;"></i>
+
+                <div class="sticky-nav-img">
+                    <img src="./assets/backward_icon.png">
+                    <img src="./assets/forward_icon.png" class="forward">
+                </div>
+                <div class="sticky-nav-buttons">
+                    <button class="badge explore">Explore premium</button>
+                    <button class="badge download"><i class="fa-solid fa-download"></i>Install app</button>
+                    <i class="fa-solid fa-user"></i>
+                    <button class="badge log" style="height:2.7rem; width: 5.7rem; font-size: 1rem;" >Log in</button>
+                </div>
+            </div>
+            <div class="cards">
+               <div class="h2">
+                <h2>Trending Albums</h2>
+               </div>
+               <div class="card-container">
+                    <div class="card start">
+                        <img src="./assets/f1.png">
+                        <p class="card-title">F1 Album</p>
+                        <p class="card-info">Ed Sheeran, Tate McRae, Don Toliver.....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/ed.jpeg">
+                        <p class="card-title">Ed Sheeran</p>
+                        <p class="card-info"> + [Explicit] </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/zedd.jpeg">
+                        <p class="card-title">Zedd</p>
+                        <p class="card-info">Telos</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/mark.jpeg">
+                        <p class="card-title">Mark Ambor</p>
+                        <p class="card-info">Rockwood [Explicit]</p>
+                    </div>
+                    <div class="card bruno">
+                        <img src="./assets/bruno.jpeg">
+                        <p class="card-title">Bruno Mars</p>
+                        <p class="card-info">An evening with silk sonic</p>
+                    </div>
+               </div>
+               <div class="h2 art">
+                <h2>Popular Artists</h2>
+               </div>
+               <div class="card-container space">
+                    <div class="card start different">
+                        <img src="./assets/arjit.jpeg">
+                        <p class="card-title">Arijit Singh</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                    <div class="card different">
+                        <img src="./assets/ar.jpeg">
+                        <p class="card-title">A.R. Rahman</p>
+                        <p class="card-info">Artist </p>
+                    </div>
+                    <div class="card different">
+                        <img src="./assets/bohemian.jpg">
+                        <p class="card-title">Queen</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                    <div class="card different">
+                        <img src="./assets/artist3.jpeg">
+                        <p class="card-title">Ariana Grande</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+               </div>
+               <div class="h2 art">
+                <h2>Featured Charts</h2>
+               </div>
+               <div class="card-container charts">
+                    <div class="card start">
+                        <img src="./assets/card5img.jpeg">
+                        <p class="card-info">Your weekly update of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card6img.jpeg">
+                        <p class="card-info">Your weekly update of the most played... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/top.jpeg">
+                        <p class="card-info">Your daily update of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/viral.jpeg">
+                        <p class="card-info">Your daily update of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/india.jpeg">
+                        <p class="card-info">Your daily update of the most viral tracks..</p>
+                    </div>
+               </div>
+               <br> <hr>
+               <br>
+               <div class="footer">
+                <div class="father">
+                        <div class="idk">
+                            <div class="about">
+                                <ul class="first"> 
+                                    <p class="bold">Company</p>
+                                    <p class="low">About</p>
+                                    <p class="low">Jobs</p>
+                                    <p class="low">For the Record</p>
+                                </ul>
+                            </div>
+                            <div class="about">
+                                <ul>
+                                    <p class="bold">Useful links</p>
+                                    <p class="low">Support</p>
+                                    <p class="low">Free mobile app</p>
+                                    <p class="low">Popular by country</p>
+                                    <p class="low">Import music</p>
+                                </ul>
+                                
+                            </div>
+                            <div class="about">
+                                <ul>
+                                    <p class="bold">Communities</p>
+                                    <p class="low">For artists</p>
+                                    <p class="low">Developers</p>
+                                    <p class="low">Advertising</p>
+                                    <p class="low">Investors</p>
+                                    <p class="low">Vendors</p>
+                                 </ul>
+                            </div>
+                            <div class="about">
+                                <ul>
+                                    <p class="bold">Spotify plans</p>
+                                    <p class="low">Individual</p>
+                                    <p class="low">Duo</p>
+                                    <p class="low">Family</p>
+                                    <p class="low">Student</p>
+                                    <p class="low">Spotify Free</p>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="about media">
+                                <i class="fa-brands fa-linkedin"></i>
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-youtube"></i>
+                        </div>
+                </div> 
+                <hr>
+                <p class="copy">©2025 Spotify AB</p>
+               </div>
+            </div>
+            
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="./assets/best part.jpeg">
+                <ul>
+                    <p class="bigger">Best part</p>
+                    <p class="smaller">Daniel Caesar</p>
+                </ul>
+                <i class="fa-solid fa-plus"></i>
+                <i class="fa-regular fa-heart other"></i>
+            </div>
+            <div class="player">
+                <div class="player-control-icons">
+                    <img src="./assets/player_icon1.png" class="player-icon">
+                    <img src="./assets/player_icon2.png" class="player-icon">
+                    <img src="./assets/player_icon3.png" class="player-icon play-button">
+                    <img src="./assets/player_icon4.png" class="player-icon">
+                    <img src="./assets/player_icon5.png" class="player-icon">
+                </div>
+                <div class="progress-bar">
+                    <span class="time-stamp">0:00</span>
+                    <input type="range" class="progress-slider" min="0" max="100" step="1" value="0" oninput="this.style.setProperty('--value-percent', `${this.value}%`)">
+                    <span class="time-stamp">3:29</span>
+                </div>
+            </div>
+            <div class="player-controls">
+                <span class="material-symbols-outlined">lyrics</span>
+                <span class="material-symbols-outlined">queue_music</span>
+                <span class="material-symbols-outlined">devices</span>
+                <div class="volume-controls">
+                    <span class="material-symbols-outlined">volume_up</span>
+                    <input type="range" class="volume-slider" min="0" max="100" step="1" value="0" oninput="this.style.setProperty('--value-percent', `${this.value}%`)">
+                </div>
+                <span class="material-symbols-outlined">fullscreen</span>
+            </div>
+        </div>
+    </div>
+    <script src="spotify.js"></script>
+</body>
+</html>
